@@ -1,8 +1,8 @@
 import hashlib
 
-hash_file = 'd41d8cd98f00b204e9800998ecf8427ed41d8cd98f00b204e9800998ecf8427e'
+hash_file = '5d2d3ceb7abe552344276d47d36a8175b7aeb250a9bf0bf00e850cd23ecf2e43'
 
-dic_file = input('Enter the dictionary file: ')
+dic_file = input('Enter the dictionary file: ') # Enter the dictionary file directory, with the name of the file.
 
 with open(dic_file, 'r') as file:
 
@@ -14,7 +14,7 @@ with open(dic_file, 'r') as file:
 
         if hash_calculated == hash_file:
 
-            print(f'Password found: {password}')
+            print('Password found: ' + password)
 
             break
         else:
