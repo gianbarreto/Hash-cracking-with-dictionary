@@ -11,6 +11,6 @@ The **Hash Cracking with Dictionary** project was developed to test the security
 - Enhancing awareness of **password security best practices**.  
 
 ## Tools Used  
-- **Python** – Core language for hash cracking.  
+- **Python** – Core language.
 - **Hashlib Library** – Used for generating and verifying hashes.  
 - **Wordlists** (e.g., `dictionary.txt`) – To attempt cracking known hashes.
